@@ -71,7 +71,7 @@ static const struct arg args[] = {
 	{separator," | ",NULL},
 	{load_avg,"%s",NULL},
 	{separator," | ",NULL},
-	{battery_perc,"%s","BAT0"},
+	{battery_perc,"%s","BAT1"},
 	{separator,"% | ",NULL},
 	{datetime,"%s","%F"},
 	{separator," | ",NULL},
