@@ -65,6 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format argument */
+	{netspeed_rx,"%9s ","enp12s0"},
+	{netspeed_tx,"%9s","enp12s0"},
+	{separator," | ",NULL},
 	{ram_free,"%s",NULL},
 	{separator," | ",NULL},
 	{load_avg,"%s",NULL},
