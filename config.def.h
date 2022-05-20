@@ -67,12 +67,12 @@ static const struct arg args[] = {
 	/* function format argument */
 	{netspeed_rx,"%9s ","enp12s0"},
 	{netspeed_tx,"%9s","enp12s0"},
-	{separator," | ",NULL},
+	{separator," │ ",NULL},
 	{ram_free,"%s",NULL},
-	{separator," | ",NULL},
+	{separator," │ ",NULL},
 	{load_avg,"%s",NULL},
-	{separator," | ",NULL},
+	{separator," │ ",NULL},
 	{datetime,"%s","%F"},
-	{separator," | ",NULL},
+	{separator," │ ",NULL},
 	{datetime,"%s","%T"}
 };
